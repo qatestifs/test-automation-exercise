@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automated test Suite">
+<!--    <listeners>-->
+<!--        <listener class-name="org.testng.reporters.EmailableReporter"/>-->
+<!--        <listener class-name="org.testng.reporters.XMLReporter"/>-->
+<!--    </listeners>-->
+    <test name="automated test">
+        <classes>
+            <class name="com.automation.runner.TestRunner" />
+        </classes>
+    </test>
+</suite>
