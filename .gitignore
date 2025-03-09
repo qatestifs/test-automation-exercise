@@ -2,6 +2,17 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore build files
+*.class
+target/
+
+# Ignore dependency management files
+node_modules/
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
